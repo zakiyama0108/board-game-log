@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ボードゲームログ管理 ログ管理画面</title>
+    <style media="screen">
+      th,td{
+        border:1px #333 solid; /* 枠線をつける */
+      }
+      table{
+        border-collapse: collapse;
+      }
+    </style>
+</head>
+<body>
+    ボードゲームログ管理画面<br>
+    <br>
+    ボードゲームを登録しよう<br>
+    <br>
+    <button class="favorite styled"
+        type="button">
+    ログ作成
+    </button>
+    <button class="favorite styled"
+        type="button">
+    ログ削除
+    </button><br>
+    <br>
+
+    <table>
+        <tr>
+          <th>#</th>
+          <th>ボードゲームタイトル</th>
+          <th>登録日</th>
+          <th>評価点数</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>
+            <a href="05_BoardGameLogDetail.html">カタン</a>
+          </td>
+          <td>2023/04/27</td>
+          <td>3.8</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                <a href="05_BoardGameLogDetail.html">Ito</a>
+            </td>
+            <td>2023/03/10</td>
+            <td>3.7</td>
+          </tr>
+    </table>
+
+    <br>
+    <button class="favorite styled"
+        type="button">
+    ログアウト
+    </button>
+
+</body>
+</html>
